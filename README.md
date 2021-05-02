@@ -1,2 +1,2 @@
 # practice
-coding study
+study coding

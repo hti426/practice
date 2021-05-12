@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="Kr">
+  <head>
+    <link
+      rel="shortcut icon"
+      href="https://www.youtube.com/s/desktop/1f1401a5/img/favicon.ico"
+    />
+    <title>Home - my first website.</title>
+    <meta name="description" content="This is my website." />
+    <meta charset="utf-8" />
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      div {
+        background-color: bisque;
+        height: 100px;
+        width: 100px;
+      }
+      .green {
+        background-color: teal;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: -15px; /*absolute는 relative를 잡은 녀석을 기준으로 움직임. 만약 relative를 잡지않으면 body와 같은 큰몸통을 relative로 잡는다.*/
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="green"></div>
+    </div>
+  </body>
+</html>
